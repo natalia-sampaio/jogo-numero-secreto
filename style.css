@@ -51,7 +51,7 @@ h3 {
     margin: 20px;
 }
 
-.btn{
+.btn-jogar{
     padding: 8px 15px;
     border: 0;
     background: var(--primary-color);
@@ -60,12 +60,11 @@ h3 {
     color: var(--bg-color);
     display: flex;
     align-items: center;
-}
-
-.btn-jogar {
-    border: 0;
-    background: var(--primary-color);
-    color: var(--bg-color);
     font-weight: bold;
     font-size: 1em;
+    cursor: pointer;
+}
+
+.btn-jogar:hover {
+    background: var(--secondary-color);
 }
